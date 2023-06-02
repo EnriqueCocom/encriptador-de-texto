@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+:root{
+  --fondo: #F3F5FC;
+  --texto: #0A3871;
+  --informe: #495057;
+  --boton: #D8DFE8;
+  --blanco: #FFFFFF;
+  --subtitulo: #343A40;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--fondo);
+  font-family: 'Inter', sans-serif;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+.logo{
+  width: 120px;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+header{
+  padding-top: 10px;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Area de texto 1 */
+
+.areatexto{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 170%;
+  margin-top: 10px;
+  padding: 2px;
+  border:none;
+  background: transparent;
+  color: var(--texto);
+  text-transform: lowercase;
+  resize: none;
+}
+.areatexto:focus{
+  outline: none;
+}
+::placeholder{
+  color: var(--texto);
+
+}
+
+/* Seccion información*/
+
+.iconoinfo{
+  color: var(--informe);
+  position: absolute;
+  top:648px;
+  left: 339px;
+}
+.info{
+  color: var(--informe);
+  font-size: 14px;
+  position: relative;
+}
+
+/* Caja botones */
+
+.btn-encriptar{
+  color: var(--blanco);
+  background: var(--texto);
+  width: 350px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+.btn-encriptar:hover{
+  background: orange;
+  color: var(--blanco);
+}
+.btn-desencriptar{
+  color: var(--texto);
+  background: var(--boton);
+  width: 350px;
+  padding: 15px 10px;
+  border-radius: 14px;
+  border: 1px var(--texto) solid;
+  margin-left: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+.btn-desencriptar:hover{
+  background: blue;
+  color: var(--blanco);
+}
+
+ /* Area de texto 2  */
+
+.mensaje{
+  font-weight: 400;
+  font-size: 32px;
+  height: 570px;
+  padding-left: 23px;
+  padding-top: 15px;
+  background: var(--blanco);
+  background-image: url("../imagenes/Muñeco.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 24px;
+  color: var(--texto);
+  position: relative;
+  resize: none;
+}
+.mensaje:focus {
+  outline: none;
+}
+.mensaje::placeholder{
+  display: none;
+}
+.cajaimagen{
+  position: absolute;
+  top: 550px;
+  right: 365px;
+}
+h2{
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--subtitulo);
+  text-align: center;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 15px;
+  color: var(--informe);
+  text-align: center;
+}
+
+.btn-copiar{
+  color: var(--texto);
+  background: var(--blanco);
+  width: 250px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: 1px var(--texto) solid;
+  cursor: pointer;
+  margin-left: 60px;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+.btn-copiar:hover{
+  background: coral;
+  color: var(--blanco);
+}
+
+/* Footer */
+
+footer{
+  background-color: #0A3871;
+  padding: 45px;
+  overflow: hidden;
+}
+.redes{
+  text-align: center;
+  margin-top: 10px;
+}
+.redes a{
+  color: var(--blanco);
+  font-size: 39px;
+  transition: all .5s ease;
+}
+.icono{
+  padding-left: 7px;
+  padding-bottom: 14px;
+}
+.redes a:hover{
+  color: orange;
+
+
+}
+.redes p{
+  color: var(--blanco);
+  font-size: 16px;
+}
