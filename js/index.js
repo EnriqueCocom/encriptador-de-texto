@@ -50,7 +50,6 @@ function encriptar(stringEncriptado){
 
 function btnDesencriptar(){
   if(!validarTexto()){
-
     const textoEncriptado = desencriptar(textArea.value);
     mensaje.value = textoEncriptado;
     textArea.value = "";
@@ -68,7 +67,7 @@ function desencriptar(stringDesencriptado){
       stringDesencriptado = stringDesencriptado.replaceAll(matriz[i][1], matriz[i][0])
     }
   }
-  return stringDesencriptado;
+  return stringDesencriptado; 
 }
 
 function btnCopiar(){
@@ -78,6 +77,7 @@ function btnCopiar(){
   Swal.fire(
     '',
     'Texto copiado con éxito!',
-    'success'
+    'success',
   )
+  return setTimeout('location.reload()', 2000);
 }
