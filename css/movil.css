@@ -5,8 +5,77 @@
 }
 
 @media screen and (max-width: 480px){
+  /* section{
+    width: 100%;
+  } */
   .logo{
-    width: 93px;
-    padding: 4px;
+    width: 80px;
+    padding-top: 15px;
+    margin-left: -8px;
   }
+  .areatexto {
+    font-size: 24px;
+    height: 290px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .info{
+    text-align: center;
+  }
+  .iconoinfo{
+    top: 357px;
+    left: 51px;
+    color: #67808E;
+  }
+  .botones{
+    text-align: center;
+    width: 100%;
+  }
+  .btn-encriptar{
+    width: 260px;
+    padding: 20px 10px;
+    margin-bottom: 24px;
+  }
+  .btn-desencriptar{
+    width: 260px;
+    padding: 20px 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  h2{
+    font-size: 20px;
+    width: 100%;
+  }
+  p{
+    font-size: 12px;
+    width: 100%;
+  }
+  .mensaje{
+    width: 300px;
+    font-size: 22px;
+    background-image: none;
+    padding-left: 4px;
+    position: relative;
+    height: 125px;
+    top: -10px;
+    left: 40px;
+
+  }
+  .cajaimagen{
+    display: none;
+    /* top: 572px;
+    right: 25px; */
+  }
+  /*
+  .cajaimagen p{
+    font-size: 14px;
+  }*/
+  .btn-copiar{
+    width: 200px;
+    padding: 15px 10px;
+    top: 683px;
+    right: 85px;
+  }
+
 }
