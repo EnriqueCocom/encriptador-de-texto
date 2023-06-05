@@ -1,13 +1,11 @@
 @import url(style.css);
 
 @media screen and (max-width: 768px){
-  
+
 }
 
 @media screen and (max-width: 480px){
-  /* section{
-    width: 100%;
-  } */
+
   .logo{
     width: 80px;
     padding-top: 15px;
@@ -64,13 +62,8 @@
   }
   .cajaimagen{
     display: none;
-    /* top: 572px;
-    right: 25px; */
   }
-  /*
-  .cajaimagen p{
-    font-size: 14px;
-  }*/
+
   .btn-copiar{
     width: 200px;
     padding: 15px 10px;
