@@ -2,7 +2,7 @@
 Repositorio del Challenge Encriptador de Texto - Oracle Next Education y Alura Latam
 
 ---
-
+![captura-proyecto](imagenes/encriptadorenrique.png)
 
 ## 📖Caracteristicas
 
